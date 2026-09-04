@@ -418,6 +418,18 @@ body[data-theme="light"] .theme-toggle{background:linear-gradient(145deg,#F1F5F9
 body[data-theme="light"] .theme-toggle .icon-sun{opacity:1;transform:rotate(0deg) scale(1);}
 body[data-theme="light"] .theme-toggle .icon-moon{opacity:0;transform:rotate(-90deg) scale(.3);}
 /* ==== LIGHT THEME OVERRIDES (auto-generated) ==== */
+/* ==== GRID LINES + SCROLLBAR FIX (v2) ==== */
+body[data-theme="light"] .task-mcell,body[data-theme="light"] .sec-mcell{border-right-color:rgba(30,41,59,.18) !important;}
+body[data-theme="light"] .task-row{border-bottom-color:rgba(30,41,59,.10) !important;}
+#gantt-area{margin-bottom:8px;}
+#gantt-area::-webkit-scrollbar{width:12px;height:12px;}
+#gantt-area::-webkit-scrollbar-track{background:#0f172a;}
+#gantt-area::-webkit-scrollbar-thumb{background:#475569;border-radius:7px;border:2px solid #0f172a;background-clip:padding-box;}
+#gantt-area::-webkit-scrollbar-thumb:hover{background:#64748b;}
+body[data-theme="light"] #gantt-area::-webkit-scrollbar-track{background:#f8fafc !important;}
+body[data-theme="light"] #gantt-area::-webkit-scrollbar-thumb{background:#94a3b8 !important;border-color:#f8fafc !important;}
+body[data-theme="light"] #gantt-area::-webkit-scrollbar-thumb:hover{background:#7d8ba0 !important;}
+
 body[data-theme="light"]{background:#F8FAFC !important;color:#1E293B !important;}
 body[data-theme="light"] /* ── LOGIN ── */
 #login-overlay{background:#F8FAFC !important;}
