@@ -406,6 +406,141 @@ body.pdf-light .task-name{color:#374151!important;}
 body.pdf-light .task-mcell{border-color:#F9FAFB!important;}
 body.pdf-light .wk-tick{background:rgba(0,0,0,.18)!important;}
 body.pdf-light .wk-num{color:rgba(0,0,0,.3)!important;}
+
+/* ==== THEME TOGGLE (auto-added) ==== */
+.theme-toggle{width:32px;height:32px;border-radius:50%;flex-shrink:0;border:1px solid #334155;background:linear-gradient(145deg,#172033,#1E293B);box-shadow:0 3px 8px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;cursor:pointer;position:relative;overflow:hidden;transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s;margin-left:6px;}
+.theme-toggle:hover{transform:scale(1.1) rotate(-10deg);}
+.theme-toggle:active{transform:scale(0.9);}
+.theme-toggle svg{width:16px;height:16px;position:absolute;transition:transform .5s cubic-bezier(.68,-.55,.27,1.55),opacity .35s;}
+.theme-toggle .icon-sun{color:#FBBF24;opacity:0;transform:rotate(90deg) scale(.3);}
+.theme-toggle .icon-moon{color:#A5B4FC;opacity:1;transform:rotate(0deg) scale(1);}
+body[data-theme="light"] .theme-toggle{background:linear-gradient(145deg,#F1F5F9,#FFFFFF);border-color:#E2E8F0;}
+body[data-theme="light"] .theme-toggle .icon-sun{opacity:1;transform:rotate(0deg) scale(1);}
+body[data-theme="light"] .theme-toggle .icon-moon{opacity:0;transform:rotate(-90deg) scale(.3);}
+/* ==== LIGHT THEME OVERRIDES (auto-generated) ==== */
+body[data-theme="light"]{background:#F8FAFC !important;color:#1E293B !important;}
+body[data-theme="light"] /* ── LOGIN ── */
+#login-overlay{background:#F8FAFC !important;}
+body[data-theme="light"] .login-title{color:#0F172A !important;}
+body[data-theme="light"] .login-sub{color:#64748B !important;}
+body[data-theme="light"] .login-btn{border:1px solid #FFFFFF !important;color:#475569 !important;}
+body[data-theme="light"] /* ── TOP BAR ── */
+#topbar{background:#FFFFFF !important;border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .topbar-div{background:#E2E8F0 !important;}
+body[data-theme="light"] #topbar h1{color:#0F172A !important;}
+body[data-theme="light"] #topbar .sub{color:#64748B !important;}
+body[data-theme="light"] #user-chip{border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #date-picker-wrap{background:#F1F5F9 !important;}
+body[data-theme="light"] #date-picker-wrap:hover{background:#EDE9FE !important;}
+body[data-theme="light"] #date-picker-wrap.active, body[data-theme="light"] #date-picker-wrap.focused{background:#EDE9FE !important;}
+body[data-theme="light"] #date-picker-wrap input[type="date"]{color:#0F172A !important;}
+body[data-theme="light"] #clear-date{color:#64748B !important;}
+body[data-theme="light"] #btn-history{background:#DBEAFE !important;}
+body[data-theme="light"] #btn-sync{background:#ECFDF5 !important;}
+body[data-theme="light"] #btn-sync.connected{background:#ECFDF5 !important;}
+body[data-theme="light"] #btn-sync.error{background:#FEF2F2 !important;}
+body[data-theme="light"] .leg{color:#334155 !important;}
+body[data-theme="light"] /* ── SUMMARY STRIP ── */
+#summary-strip{background:#F1F5F9 !important;border-bottom:1px solid #FFFFFF !important;}
+body[data-theme="light"] .summ-card{border-right:1px solid #FFFFFF !important;}
+body[data-theme="light"] .summ-bar-wrap{background:#E2E8F0 !important;}
+body[data-theme="light"] /* ── DATE PANEL ── */
+#date-panel{background:#FFFFFF !important;border-left:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #date-panel-header{border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #date-panel-title{color:#0F172A !important;}
+body[data-theme="light"] #date-panel-subtitle{color:#64748B !important;}
+body[data-theme="light"] #date-panel-body::-webkit-scrollbar-thumb{background:#E2E8F0 !important;}
+body[data-theme="light"] .dp-task-item{color:#475569 !important;}
+body[data-theme="light"] .dp-task-num{color:#334155 !important;}
+body[data-theme="light"] .dp-no-activity{color:#334155 !important;}
+body[data-theme="light"] /* ── MONTH HEADER ── */
+#month-header{background:#FFFFFF !important;border-bottom:2px solid #E2E8F0 !important;}
+body[data-theme="light"] .mhdr-days{border-top:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .corner{background:#FFFFFF !important;border-right:2px solid #CBD5E1 !important;color:#64748B !important;}
+body[data-theme="light"] .corner-days{background:#FFFFFF !important;border-right:2px solid #CBD5E1 !important;}
+body[data-theme="light"] .mcell{border-right:3px solid #CBD5E1 !important;}
+body[data-theme="light"] /* Day row within month */
+.day-row-cell{border-right:3px solid #CBD5E1 !important;background:#F1F5F9 !important;}
+body[data-theme="light"] .day-tick{background:#CBD5E1 !important;}
+body[data-theme="light"] .day-num{color:#475569 !important;}
+body[data-theme="light"] .day-tick.day-5{background:#CBD5E1 !important;}
+body[data-theme="light"] .day-num.day-5{color:#334155 !important;}
+body[data-theme="light"] .task-label{background:#F8FAFC !important;border-right:2px solid #FFFFFF !important;}
+body[data-theme="light"] .task-row:hover .task-label{background:#F1F5F9 !important;}
+body[data-theme="light"] .task-row.sel-row .task-label{background:#F5F3FF !important;}
+body[data-theme="light"] .task-name{color:#475569 !important;}
+body[data-theme="light"] .task-edit-hint{color:#64748B !important;}
+body[data-theme="light"] #modal-box{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #modal-header{background:#F8FAFC !important;border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #modal-header h2{color:#0F172A !important;}
+body[data-theme="light"] .btn-close-x{color:#64748B !important;}
+body[data-theme="light"] .btn-close-x:hover{background:#E2E8F0 !important;color:#0F172A !important;}
+body[data-theme="light"] #pdf-side{border-right:1px solid #E2E8F0 !important;background:#F8FAFC !important;}
+body[data-theme="light"] #pdf-drop-zone{border:2px dashed #E2E8F0 !important;}
+body[data-theme="light"] #pdf-drop-zone .dz-title{color:#475569 !important;}
+body[data-theme="light"] #pdf-drop-zone .dz-sub{color:#334155 !important;}
+body[data-theme="light"] #pdf-viewer-toolbar{background:#F1F5F9 !important;border-bottom:1px solid #E2E8F0 !important;color:#64748B !important;}
+body[data-theme="light"] #pdf-viewer-toolbar strong{color:#475569 !important;}
+body[data-theme="light"] #btn-change-pdf{border:1px solid #E2E8F0 !important;color:#64748B !important;}
+body[data-theme="light"] #btn-change-pdf:hover{color:#475569 !important;}
+body[data-theme="light"] #parse-status{color:#475569 !important;background:#F8FAFC !important;border-top:1px solid #FFFFFF !important;}
+body[data-theme="light"] #form-scroll::-webkit-scrollbar-thumb{background:#E2E8F0 !important;}
+body[data-theme="light"] .form-label{color:#64748B !important;}
+body[data-theme="light"] .form-input{background:#F8FAFC !important;border:1px solid #E2E8F0 !important;color:#0F172A !important;}
+body[data-theme="light"] #task-table th{color:#334155 !important;border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .ti{background:#F8FAFC !important;color:#1E293B !important;}
+body[data-theme="light"] .btn-del-row{color:#334155 !important;}
+body[data-theme="light"] #btn-add-task{border:1px dashed #E2E8F0 !important;color:#64748B !important;}
+body[data-theme="light"] #form-footer{border-top:1px solid #E2E8F0 !important;background:#F1F5F9 !important;}
+body[data-theme="light"] #btn-cancel-form{border:1px solid #E2E8F0 !important;color:#475569 !important;}
+body[data-theme="light"] #edit-box{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #edit-header{border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #edit-modal-title{color:#0F172A !important;}
+body[data-theme="light"] #et-preview{color:#64748B !important;background:#F8FAFC !important;border:1px solid #FFFFFF !important;}
+body[data-theme="light"] #edit-footer{border-top:1px solid #E2E8F0 !important;background:#F1F5F9 !important;}
+body[data-theme="light"] #btn-delete-task{border:1px solid #E2E8F0 !important;color:#64748B !important;}
+body[data-theme="light"] #btn-cancel-edit{border:1px solid #E2E8F0 !important;color:#475569 !important;}
+body[data-theme="light"] #history-box{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #history-header{background:#F8FAFC !important;border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #history-header h2{color:#0F172A !important;}
+body[data-theme="light"] #history-body::-webkit-scrollbar-thumb{background:#E2E8F0 !important;}
+body[data-theme="light"] .hist-entry{border-bottom:1px solid #FFFFFF !important;}
+body[data-theme="light"] .hist-time{color:#334155 !important;}
+body[data-theme="light"] .hist-project{background:#E2E8F0 !important;color:#475569 !important;}
+body[data-theme="light"] .hist-desc{color:#334155 !important;}
+body[data-theme="light"] .hist-empty{color:#334155 !important;}
+body[data-theme="light"] #history-footer{border-top:1px solid #E2E8F0 !important;background:#F1F5F9 !important;}
+body[data-theme="light"] #fb-box{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #receso-box{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #hitos-box{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .hito-item{background:#F8FAFC !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .hito-label{color:#1E293B !important;}
+body[data-theme="light"] .hito-date{color:#64748B !important;}
+body[data-theme="light"] .hito-edit-form{background:#F8FAFC !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .hito-edit-label{color:#64748B !important;}
+body[data-theme="light"] .hito-edit-input{background:#F8FAFC !important;border:1px solid #E2E8F0 !important;color:#0F172A !important;}
+body[data-theme="light"] #fb-header{background:#F8FAFC !important;border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] #fb-header h2{color:#0F172A !important;}
+body[data-theme="light"] .fb-step{color:#475569 !important;}
+body[data-theme="light"] /* ── SYNC INDICATOR / TOAST ── */
+#sync-indicator{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;color:#475569 !important;}
+body[data-theme="light"] #gantt-area::-webkit-scrollbar-track{background:#F8FAFC !important;}
+body[data-theme="light"] #gantt-area::-webkit-scrollbar-thumb{background:#E2E8F0 !important;}
+body[data-theme="light"] #gantt-area::-webkit-scrollbar-corner{background:#F8FAFC !important;}
+body[data-theme="light"] /* ── MODAL OPTIONS (PDF / Filter) ── */
+.modal-opt-btn{border:1px solid #E2E8F0 !important;color:#475569 !important;}
+body[data-theme="light"] .modal-opt-btn:hover{color:#0F172A !important;}
+body[data-theme="light"] /* ── OBRAS FILTER DROPDOWN ── */
+#obras-dropdown{background:#FFFFFF !important;border:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .obras-dd-header{background:#F8FAFC !important;border-bottom:1px solid #E2E8F0 !important;}
+body[data-theme="light"] .obras-dd-title{color:#475569 !important;}
+body[data-theme="light"] .obras-dd-act{color:#64748B !important;}
+body[data-theme="light"] .obras-dd-cb{border:2px solid #CBD5E1 !important;}
+body[data-theme="light"] .obras-dd-name{color:#334155 !important;}
+body[data-theme="light"] .obras-move-btn{color:#475569 !important;}
+body[data-theme="light"].pdf-light .corner{color:#4B5563!important !important;}
+body[data-theme="light"].pdf-light .task-num{color:#4B5563!important !important;}
+body[data-theme="light"].pdf-light .task-name{color:#4B5563!important !important;}
 </style>
 </head>
 <body>
@@ -433,7 +568,7 @@ body.pdf-light .wk-num{color:rgba(0,0,0,.3)!important;}
       </div>
     </div>
 
-    <div id="user-chip" onclick="changeUser()" title="Cambiar usuario">
+    <button class="theme-toggle" id="themeToggleBtn" onclick="toggleTheme()" title="Cambiar tema" aria-label="Cambiar tema"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path></svg></button><div id="user-chip" onclick="changeUser()" title="Cambiar usuario">
       <div id="user-dot"></div>
       <span id="user-name-label">—</span>
     </div>
@@ -755,6 +890,10 @@ body.pdf-light .wk-num{color:rgba(0,0,0,.3)!important;}
 <div id="sync-indicator"><div id="sync-dot"></div><span id="sync-msg"></span></div>
 
 <script>
+(function(){try{var t=localStorage.getItem('daca-theme');if(t==='light')document.body.setAttribute('data-theme','light');}catch(e){}})();
+function applyTheme(theme){document.body.setAttribute('data-theme',theme);try{localStorage.setItem('daca-theme',theme);}catch(e){}}
+function toggleTheme(){var cur=document.body.getAttribute('data-theme')==='light'?'light':'dark';applyTheme(cur==='light'?'dark':'light');}
+
 // ═══════════════════════════════════════════════════════
 // CONSTANTS
 // ═══════════════════════════════════════════════════════
